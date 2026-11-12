@@ -1,5 +1,5 @@
 import unittest
-from app.py import add
+from app import add
 
 class Test_Case(unittest.TestCase):
 	def test_add(self):
